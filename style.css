@@ -1,0 +1,69 @@
+/* إعدادات عامة للصفحة */
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #1e2a38; /* كحلي غامق */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* شريط التنقل */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #dcdcdc; /* رمادي فاتح عند التمرير */
+}
+
+/* الأقسام الرئيسية */
+main {
+    padding: 40px;
+    background-color: white;
+}
+
+/* العناوين داخل الأقسام */
+section h2 {
+    color: #1e2a38; /* نفس الكحلي */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* الفقرات */
+section p, section ul {
+    line-height: 1.8;
+    color: #333;
+}
+
+/* قائمة النقاط */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* التذييل */
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
